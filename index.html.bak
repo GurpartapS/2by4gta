@@ -46,14 +46,39 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 <style>
 	
-	
+header .fa{
+	font-size:70%;
+}
+	header button{
+		height:40px;padding:5px;font-size:80%; background:none;border:2px solid white;color:white;
+	}
 @media screen and (max-width: 480px)  {
    #fh5co-home .row{
-		margin-top:-40%;
+		margin-top:-25%;
+	}
+	header button{
+		color:grey;
+		border:2px solid grey;
+		margin-left:4%;
+	}
+	
+	 #fh5co-home .row h3{
+		font-size:50%;
+	}
+	#fh5co-home .fa{
+		padding-top:15px;
 	}
 	
 	.fh5co-block{
 		margin-left:1%;
+	}
+	header .fa{
+		color:lightgrey;
+		font-size:50%;
+
+	}
+	header .fa-phone, .fa-envelope{
+		margin-top:4%;
 	}
 }
 
@@ -65,12 +90,16 @@
 	.fh5co-block{
 		margin-left:1%;
 	}
+	
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
    #fh5co-home .row{
 		margin-top:-5%;
 	}
-	
+#fh5co-home .fa{
+		padding-top:34px;
+		font-size:165%;
+	}
 	.fh5co-block{
 		margin-left:1%;
 	}
@@ -79,10 +108,15 @@
 	}
 	header .fa{
 		color:lightgrey;
-		padding-top:5%;
+		padding-top:3%;
 		padding-left:1%;
 	}
+
 	
+	
+}
+#fh5co-services .row .col-md-4{
+	text-align:center;
 }
 </style>
 	</head>
@@ -92,11 +126,11 @@
 		<div class="container" id="fh5co-header-top">
 				<!-- <div class="row"> -->
 			    <nav class="navbar navbar-default">
-		       <span style="font-size:70%;" class="fa fa-facebook"></span>
-		       <span style="font-size:70%;" class="fa fa-twitter"></span>
-		       <span style="font-size:70%;" class="fa fa-instagram"></span>
-		       <span style="font-size:70%;float:right" class="fa fa-phone">&nbsp;&nbsp;1800-2BY-4GTA</span>
-		       <span style="font-size:70%;float:right" class="fa fa-envelope">&nbsp;&nbsp;info@2by4gta.com&nbsp;&nbsp;</span>
+		       <span  class="fa fa-facebook"></span>
+		       <span class="fa fa-twitter"></span>
+		       <span class="fa fa-instagram"></span>
+		       <span style="float:right;" class="fa fa-phone">&nbsp;&nbsp;1800-2BY-4GTA</span>
+		       <span style="float:right;" class="fa fa-envelope">&nbsp;&nbsp;info@2by4gta.com&nbsp;&nbsp;</span>
 			    </nav>
 			  <!-- </div> -->
 		  </div>
@@ -113,7 +147,7 @@
 		            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
 		            <li><a href="#" data-nav-section="services"><span>Our Mission</span></a></li>
 		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
-		            <li ><button style="height:40px;padding:5px;font-size:80%; background:none;border:2px solid white;color:white;" href="#"  data-toggle="modal" data-target="#myModal"><span >Pre-Register</span></button></li>
+		            <li ><button href="#"  data-toggle="modal" data-target="#myModal"><span >Pre-Register</span></button></li>
 		          </ul>
 		        </div>
 			    </nav>
@@ -127,18 +161,18 @@
 			<div class="text-wrap">
 				<div class="text-inner">
 					<div class="row" >
-						<div class="col-md-8 col-md-offset-2">
+						<div class="col-md-8 col-md-offset-2 ">
 
-							<h2 class="t-animate" style="font-weight:bold;font-size:200%;">We are launching soon!!</h2>
-							<p class="t-animate" style="font-size:100%;">Be part of something big and innovative.</p><br>
-							<span class="to-animate fa fa-id-card" style="width:110px;height:110px;"><br><p style="font-size:40%;padding:0px;">Connect</p></span>
-							<span class="to-animate fa fa-shopping-cart" style="width:110px;height:110px;"><p style="font-size:40%;padding:0px;">BUY</p></span>
-							<span class="to-animate fa fa-money" style="width:110px;height:110px;"><p style="font-size:40%;padding:0px;">SELL</p></span>
-							<span class="to-animate fa fa-newspaper-o" style="width:110px;height:110px;"><p style="font-size:40%;padding:0px;">NEWS</p></span>
-							<span class="to-animate fa fa-users" style="width:110px;height:110px;"><p style="font-size:40%;padding:0px;">WORKERS</p></span>
-							<span class="to-animate fa fa-truck" style="width:110px;height:110px;"><p style="font-size:40%;padding:0px;">SERVICES</p></span>
-							<span class="to-animate fa fa-home" style="width:110px;height:110px;"><p style="font-size:40%;padding:0px;margin-left:-12px;">HOMEOWNERS</p></span>
-							<span class="to-animate fa fa-info-circle" style="width:110px;height:110px;"><p style="font-size:40%;padding:0px;">ADVICE</p></span>
+							<h2 class="t-animate" style="font-weight:bold;font-size:160%;">We are launching soon!!</h2>
+							<p class="t-animate" style="font-size:80%;">Be part of something big and innovative.</p><br>
+							<span class="to-animate fa fa-id-card" ></span>
+							<span class="to-animate fa fa-shopping-cart" ></span>
+							<span class="to-animate fa fa-money" ></span>
+							<span class="to-animate fa fa-newspaper-o" ></span>
+							<span class="to-animate fa fa-users" ></span>
+							<span class="to-animate fa fa-truck" ></span>
+							<span class="to-animate fa fa-home" ></span>
+							<span class="to-animate fa fa-info-circle" ></span>
 							<br><h2 class="to-animate"><input type="text" placeholder="example@domain.com"/></h2>
 							<h2 class="to-animate"><input type="submit" class="submitNotify" id="cd-signup"  style="color:#17bed2;background:white;margin-top:2%;padding-top:0px;font-weight:bold;" value="NOTIFY ME!!"/></h2>
 						</div>
@@ -189,7 +223,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-shopping-cart"></i>
-					<h3>Buy &amp; Sell</h3>
+					<h3>Shop</h3>
 					<p>Helping find you the latest and hottest deals available in the market.</p>
 				</div>
 
@@ -206,8 +240,8 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-6 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-money"></i>
-					<h3>Networking</h3>
-					<p>Helping create community of for those seeking work, tools or just good advice.</p>
+					<h3>Sell</h3>
+					<p>We provide you a platform to sell your items</p>
 				</div>
 				<div class="col-md-4 col-sm-6 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-newspaper-o"></i>

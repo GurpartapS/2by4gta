@@ -1540,6 +1540,8 @@ h1, h2, h3, h4, h5, h6 {
 		margin:3%;
 		font-size:140%;
 		padding:4%;
+		width:100px;
+		height:100px;
 		
 	}
 	header .fa{

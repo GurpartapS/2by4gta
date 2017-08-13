@@ -1783,6 +1783,11 @@ span.input-group-addon i {
 [type="checkbox"]:not(:checked):focus + label:before {
   border: 2px dotted blue;
 }
+
+#fh5co-home .fa{	
+		padding-top:5%;
+		
+	}
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
     float: none;
@@ -1805,7 +1810,3 @@ span.input-group-addon i {
 	}
 	
 }
-#fh5co-home .fa{	
-		padding-top:5%;
-		
-	}
